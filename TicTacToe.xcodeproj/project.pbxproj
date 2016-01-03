@@ -12,6 +12,9 @@
 		FE224B961C389163000B87BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224B941C389163000B87BF /* Main.storyboard */; };
 		FE224B981C389163000B87BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE224B971C389163000B87BF /* Assets.xcassets */; };
 		FE224B9B1C389163000B87BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224B991C389163000B87BF /* LaunchScreen.storyboard */; };
+		FE224BA51C38918F000B87BF /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = FE224BA21C38918F000B87BF /* board.png */; };
+		FE224BA61C38918F000B87BF /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = FE224BA31C38918F000B87BF /* cross.png */; };
+		FE224BA71C38918F000B87BF /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = FE224BA41C38918F000B87BF /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FE224B971C389163000B87BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE224B9A1C389163000B87BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE224B9C1C389163000B87BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE224BA21C38918F000B87BF /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		FE224BA31C38918F000B87BF /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		FE224BA41C38918F000B87BF /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		FE224B8F1C389163000B87BF /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				FE224BA21C38918F000B87BF /* board.png */,
+				FE224BA31C38918F000B87BF /* cross.png */,
+				FE224BA41C38918F000B87BF /* nought.png */,
 				FE224B901C389163000B87BF /* AppDelegate.swift */,
 				FE224B921C389163000B87BF /* ViewController.swift */,
 				FE224B941C389163000B87BF /* Main.storyboard */,
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE224BA61C38918F000B87BF /* cross.png in Resources */,
+				FE224BA51C38918F000B87BF /* board.png in Resources */,
+				FE224BA71C38918F000B87BF /* nought.png in Resources */,
 				FE224B9B1C389163000B87BF /* LaunchScreen.storyboard in Resources */,
 				FE224B981C389163000B87BF /* Assets.xcassets in Resources */,
 				FE224B961C389163000B87BF /* Main.storyboard in Resources */,
